@@ -1,7 +1,7 @@
 # Data-Analysis-Project-1
 This project analyzes a synthetic dataset of 1,500 patients diagnosed with Obsessive-Compulsive Disorder (OCD). Using SQL and Google Looker Studio, I explored demographic and clinical patterns to answer key questions about patient distribution, diagnosis trends, and obsession/compulsion characteristics.
 
-# Dataset (synthetic)
+## Dataset (synthetic)
 Name: OCD Patient Dataset: Demographics & Clinical Data
 Size: 1,500 patients
 Columns:
@@ -17,7 +17,7 @@ Columns:
  - Y-BOCS Score (Obsessions)
  - Y-BOCS Score (Compulsions)
 
-# Analysis Questions & SQL Queries
+## Analysis Questions & SQL Queries
 
 1. Gender distribution & Average Obsession Score
 2. Patient counts by Ethnicity & Average Obsession Score
@@ -25,7 +25,7 @@ Columns:
 4. Most common Obsession Type & Average Obsession Score
 5. Most common Compulsion Type & Average Obsession Score
 
-# Key Insights
+## Key Insights
 
 Gender Distribution:
 * Female patients: 747 (49.8%), Avg. Obsession Score = 20.20
@@ -47,8 +47,11 @@ Most Common Compulsion Types:
 * Checking (292 patients, Avg. Score = 19.99)
 ➝ Washing compulsions are the most frequent, though counting compulsions have the highest severity score.
 
-# How to Reproduce
+## How to Reproduce
 Dataset: ocd_patient_dataset.csv
+
 SQL queries: ocd_patient.sql
+
 SQL results: results.pdf
+
 Looker PDF: OCD_Patient_reports.pdf
